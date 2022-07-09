@@ -1,5 +1,6 @@
 #!/bin/bash - Automação de Backup.
 # Quando for executar o script, use "sh index.sh /diretorio_que_voce_quer_realizar o backup"
+# A Melhor opção é executar esse script no seu diretorio inicial - $HOME
 
 # -----EXEMPLO-----
 

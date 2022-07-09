@@ -1,7 +1,5 @@
 # Usando a estrutura “if”
-![Shell-Logo](images/shell-logo.png)
-
-!SLIDE commandline incremental transition=scrollUp
+![image](https://user-images.githubusercontent.com/98562355/178124270-3f55fbfc-534e-4530-82b9-28a1bb0cc339.png)
 
 # Testando “strings”
 
@@ -16,8 +14,6 @@ Em seguida:
 
     $ test "fusca" = "gol" ; echo $?
     0
-
-!SLIDE commandline incremental transition=scrollUp
 
 # Testando “expressões matemáticas”
 
@@ -36,8 +32,6 @@ Terceira e ultima vez:
     $ test 100 -ne 100 ; echo $?
     1
 
-!SLIDE commandline incremental transition=scrollUp
-
 # Testando “Variaveis”
 
 Outra possibilidade é a validação de variáveis:
@@ -52,7 +46,6 @@ Verifique com uma variável válida:
 
 .callout.info `Você pode inverter o teste utilizando o parâmetro "-z" para então verificar se a varíavel foi declarada`
 
-!SLIDE commandline incremental transition=scrollUp
 
 # Testando “Diretóriso e Arquivos”
 
@@ -66,13 +59,10 @@ Enquanto o "-f" testa arquivos o "-d" testa diretórios:
     $ test -d /etc/ ; echo $?
     0
 
-!SLIDE incremental transition=scrollUp
 
 # Usando a estrutura “if”
 
 Dentro de um script exceções, servem para ajudar quando o resultado de uma execução pode levar a mais de uma possibilidade, por exemplo: 
-
-O arquivo [script4.sh](https://raw.githubusercontent.com/helcorin/shell-script-basico/master/shell/_files/script4.sh) possui um exemplo de testes com estrutura "if"
 
     @@@shell
     echo "Digite usuario para consulta :"
@@ -89,8 +79,7 @@ O arquivo [script4.sh](https://raw.githubusercontent.com/helcorin/shell-script-b
 
 # Usando a estrutura “if”
 
-Ainda com base neste mesmo exemplo podemos alterar o script fazendo uso da variavel interrogação que comentamos anteriormente seguida da função de teste conforme [exemplo](script5.sh) o que adicionaria uma validação extra caso a várivel esteja vazia:
-
+Ainda com base neste mesmo exemplo podemos alterar o script fazendo uso da variavel interrogação que comentamos anteriormente seguida da função de teste.
     @@@shell
     echo "Digite usuario para consulta :"
     read USER

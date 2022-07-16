@@ -1,4 +1,4 @@
-<img src="https://github.com/0ortiz/basic-shell_script/blob/main/shell.png" alt="CL-Thumb" width=20%>
+<img src="https://github.com/0ortiz/basic-shell_script/blob/main/Imagens/shell.png" alt="CL-Thumb" width=20%>
 
 # Shell Script
 - Você nunca concluiria nenhum trabalho se precisasse digitar todos os comandos que devem ser
